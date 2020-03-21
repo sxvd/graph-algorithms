@@ -13,6 +13,7 @@ target_sources(graph
     PRIVATE
         src/bfs.cpp
         src/dfs.cpp
+        src/topological.cpp
 )
 
 target_include_directories(graph
@@ -35,5 +36,6 @@ target_sources(tests
         tests/main.cpp
         tests/bfs.cpp
         tests/dfs.cpp
+        tests/topological.cpp
 )
 
