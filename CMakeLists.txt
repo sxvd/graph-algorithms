@@ -12,6 +12,7 @@ add_executable(tests)
 target_sources(graph
     PRIVATE
         src/bfs.cpp
+        src/dfs.cpp
 )
 
 target_include_directories(graph
@@ -33,5 +34,6 @@ target_sources(tests
     PRIVATE
         tests/main.cpp
         tests/bfs.cpp
+        tests/dfs.cpp
 )
 
